@@ -54,7 +54,7 @@ public class Application {
    * @param districtNumber of a district (e.g. 101)
    * @return amount of districts in given canton
    */
-  public long getAmountOfPoliticalCommunitiesInDistict(String districtNumber) {
+  public long getAmountOfPoliticalCommunitiesInDistrict(String districtNumber) {
     // TODO implementation
     throw new RuntimeException("Not yet implemented");
   }
