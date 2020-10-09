@@ -1,10 +1,8 @@
 package ch.aaap.assignment.model;
 
-public interface Canton {
+public interface Canton extends Comparable<Canton> {
 
-  public String getCode();
+  String getCode();
 
-  public String getName();
-
-  // TODO add more features here representing the relations
+  String getName();
 }
