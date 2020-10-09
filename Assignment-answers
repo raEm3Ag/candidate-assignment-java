@@ -1,0 +1,16 @@
+
+Assignment 2
+
+- The two datasets can be correlated by the politicalCommunityNumber 
+which is a unique key in the PoliticalCommunity model and a foreign key for the PostalCommunity model
+
+
+Assignment 5
+
+- the postal communities file could be simplified reporting a list of zipCode, zipCodeAddition, name. 
+The mapping between postal community and political community could be done in a separate file which
+would avoid repetition of postal community information and some overhead in the logic of the application
+
+- the politicalCommunityShortName is not necessary in the postal communities file 
+for the scope of the application
+
