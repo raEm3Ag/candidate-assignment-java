@@ -4,11 +4,11 @@ import java.util.List;
 
 public interface PostalCommunity {
 
-  String getZipCode();
+  public String getZipCode();
 
-  String getZipCodeAddition();
+  public String getZipCodeAddition();
 
-  String getName();
+  public String getName();
 
-  List<PoliticalCommunity> getPoliticalCommunities();
+  public List<PoliticalCommunity> getPoliticalCommunities();
 }

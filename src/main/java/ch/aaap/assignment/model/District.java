@@ -2,7 +2,7 @@ package ch.aaap.assignment.model;
 
 public interface District extends Comparable<District> {
 
-  String getNumber();
+  public String getNumber();
 
-  String getName();
+  public String getName();
 }

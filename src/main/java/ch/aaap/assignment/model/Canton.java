@@ -2,7 +2,7 @@ package ch.aaap.assignment.model;
 
 public interface Canton extends Comparable<Canton> {
 
-  String getCode();
+  public String getCode();
 
-  String getName();
+  public String getName();
 }
